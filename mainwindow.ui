@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Лабораторная работа. Вариант 8.</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Users/Вадим/Downloads/icons8-собака-100.png</normaloff>../../Users/Вадим/Downloads/icons8-собака-100.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <property name="leftMargin">
+       <number>50</number>
+      </property>
+      <property name="topMargin">
+       <number>50</number>
+      </property>
+      <property name="rightMargin">
+       <number>50</number>
+      </property>
+      <property name="bottomMargin">
+       <number>50</number>
+      </property>
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <item row="3" column="1">
+       <widget class="QLabel" name="divisor">
+        <property name="text">
+         <string>Делитель</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="quotientLabel">
+        <property name="text">
+         <string>Результат</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="quotientValue">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="dividendLabel">
+        <property name="text">
+         <string>Делимое</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLineEdit" name="dividendTextField"/>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLineEdit" name="dividorTextField"/>
+      </item>
+      <item row="5" column="2">
+       <widget class="QPushButton" name="calculateButton">
+        <property name="text">
+         <string>Поделить</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="2">
+       <widget class="QLabel" name="titleLabel">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Лабораторная работа. Хамзин В.А. Вариант 8. Группа 6395.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
